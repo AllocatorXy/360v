@@ -1,0 +1,19 @@
+footer{
+	width: 100%;
+	margin-bottom: 54px;
+}
+footer ul{
+	text-align: center;
+	font-size: 11px;
+}
+footer ul li{
+	color: #666;
+	margin-bottom: 18px;
+}
+footer ul li a{
+	display: inline-block;
+	color: #666;
+	border-right: 1px solid #956695;
+	line-height: 11px;
+	padding: 0 10px;
+}

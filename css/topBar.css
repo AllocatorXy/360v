@@ -1,0 +1,80 @@
+/* topBar */
+#topBar {
+  width: 100%;
+  background-color: #fff; }
+
+.topBar {
+  height: 70px; }
+  .topBar h1 {
+    margin-top: 24px; }
+  .topBar .search {
+    position: relative;
+    margin-top: 17px;
+    margin-left: 14px; }
+    .topBar .search input {
+      color: #666;
+      background-color: #eee;
+      border: 3px solid #eee;
+      border-radius: 3px;
+      outline: none;
+      width: 494px;
+      height: 32px;
+      text-indent: 14px; }
+    .topBar .search .go {
+      position: absolute;
+      top: 0;
+      right: 0;
+      cursor: pointer; }
+  .topBar .status {
+    margin-top: 27px; }
+    .topBar .status li a {
+      font-size: 14px;
+      color: #666;
+      line-height: 14px;
+      margin-right: 6px;
+      text-shadow: 1px 1px 1px #ccc; }
+      .topBar .status li a span {
+        background: url(../imgs/topSprite.png) no-repeat;
+        display: block;
+        float: left;
+        width: 26px;
+        margin: 0 6px; }
+      .topBar .status li a .my {
+        background-position: 0 0;
+        height: 25px; }
+      .topBar .status li a .his {
+        background-position: 0 -44px;
+        height: 26px; }
+      .topBar .status li a .appDown {
+        background-position: 0 -84px;
+        height: 24px; }
+
+.topLine {
+  width: 100%;
+  border-bottom: 2px solid #22ac38; }
+
+/* topNav */
+.nav {
+  box-shadow: 0 0 6px 4px #fff;
+  background-color: #fff;
+  z-index: 999;
+  position: relative; }
+  .nav .navList ul li {
+    float: left; }
+    .nav .navList ul li a {
+      font-size: 16px;
+      line-height: 43px;
+      color: #666;
+      text-shadow: 1px 1px 1px #ccc; }
+  .nav .navList .leftList {
+    margin-left: 3px; }
+    .nav .navList .leftList li {
+      margin-right: 26px; }
+  .nav .navList .rightList {
+    margin-right: 3px; }
+    .nav .navList .rightList li {
+      margin-left: 19px; }
+      .nav .navList .rightList li a {
+        font-size: 14px; }
+
+/*# sourceMappingURL=topBar.css.map */

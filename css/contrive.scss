@@ -1,0 +1,19 @@
+.contrive{
+	padding-right: 3px;
+	margin-bottom: 200px;
+	.footPics{
+		margin-top: 20px;
+		li{
+			float: right;
+			margin-right: 2px;
+			margin-bottom: 2px;
+			transition: all .3s ease;
+			cursor: pointer;
+		}
+		li:hover{
+			box-shadow: 20px 20px 20px #666;
+			opacity: .7;
+			filter: alpha(opacity=70);
+		}
+	}
+}

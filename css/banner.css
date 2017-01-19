@@ -1,0 +1,62 @@
+/* banner */
+.banner {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #fff; }
+  .banner .show {
+    width: 1920px;
+    position: relative;
+    overflow: hidden;
+    margin-left: -960px;
+    height: 455px;
+    left: 50%;
+    color: #fff;
+    z-index: 1; }
+    .banner .show .pics, .banner .show .main {
+      position: absolute; }
+    .banner .show a {
+      color: #fff; }
+      .banner .show a .title {
+        position: absolute;
+        bottom: 130px;
+        left: 477px;
+        font-size: 35px;
+        line-height: 35px;
+        text-shadow: 3px 3px 3px #000; }
+      .banner .show a .comment {
+        position: absolute;
+        left: 477px;
+        bottom: 86px;
+        font-size: 16px;
+        line-height: 16px;
+        text-shadow: 3px 3px 3px #000; }
+    .banner .show .index {
+      position: absolute;
+      bottom: 20px;
+      left: 457px; }
+      .banner .show .index li {
+        position: relative;
+        float: left;
+        margin-right: 15px; }
+        .banner .show .index li .cover {
+          position: absolute;
+          width: 97px;
+          height: 55px;
+          top: 0;
+          left: 0;
+          background-color: #000;
+          opacity: 0.6;
+          filter: alpha(opacity=60);
+          cursor: pointer; }
+        .banner .show .index li .frame {
+          position: absolute;
+          z-index: 6;
+          width: 94px;
+          height: 52px;
+          top: 0px;
+          left: 0px;
+          border: 3px solid #22ac38; }
+
+/*# sourceMappingURL=banner.css.map */
